@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tarea7.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <section class="container"> 
+        <img class="caja" src="./images/drawers.jpg" alt="danver">
+        <div class="selected">
+            <h3>Shift the overall look and feel by adding these wonderful 
+                touches to furniture in your home</h3>
+              
+                <p> Ever been in a room and felt like something was missing? Perhaps 
+                    it felt slightly bare and uninviting. I’ve got some simple tips 
+                    to help you make any room feel complete.</p>
+                    
+                    <p> Michelle Appleton
+                        28 Jun 2020</p>
+            
+        </div>
+    </section>
+    
+  </body>
+</html>
