@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .container {
+    width: 950px;
+    height: 350px;
+    margin: 20px auto;
+    /* padding: 10px; */
+    border: 1px solid #000;
+    position: relative;
+    display: flex;
+    /* direcciones: row, row-reverse, column, column-reverse*/
+    flex-direction: row;
+    /* justify-content, determina 
+        como se distribuyen los elementos 
+        en el main axis (horizontal) del contenedor
+        flex-start, flex-end, center, 
+        space-around, space-between, space-evenly
+    */
+    justify-content: space-between;
+    /* 
+        align-items, determina como se
+        distribuyen los elementos
+        en el cross axis (vertical) del 
+        contenedor dentro de la fila
+        flex-start, flex-end, center
+       */
+    gap: 20px;
+    flex-wrap: wrap;
+    /* overflow:scroll */
+    /* si tenemos habilitado flex:wrap, entonces, 
+        se habilita la propiedad align-content, con la cual 
+        podemos alinear verticalmente las filas creadas
+        con flex:wrap wrap
+       */
+    align-content: center;
+  }
+  
+  .caja {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px 0;
+    
+    
+  }
+
+  .selected{
+    width: 350px;
+    height: 350px;
+    border-radius: 1px;
+    margin: 10px 0;
+    text-align: justify;
+    border: 1px solid #000;
+    align-content: center;
+    vertical-align: middle;
+}
+.selected {
+
+    vertical-align: middle;
+
+}
+ 
